@@ -1,0 +1,22 @@
+@use '../util/' as *;
+h1,
+h2,
+h3{
+    margin-top:rem(10);
+    font-family: var(--font-france);
+    font-size: rem(37);
+    line-height:1;
+    color:var(--darkBlue);
+    //margin-bottom: rem(1);
+    @include breakpoint-down(medium){
+        font-size:rem(30);
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+}
+a, 
+a:visited,
+a:active{
+    text-decoration:none;
+}
