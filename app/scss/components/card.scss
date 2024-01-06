@@ -29,7 +29,7 @@
     height:100%;
     @include breakpoint-down(medium){
         height:rem(300);
-        width:rem(427);
+        width:100%;
         border-bottom-left-radius: 0;
         border-top-right-radius: rem(10);
     }
